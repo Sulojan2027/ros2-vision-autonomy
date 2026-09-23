@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "my_publisher_node = my_first_pkg.simple_publisher:main" 
+            "my_pub_node = my_first_pkg.simple_publisher:main",
+            "my_sub_node = my_first_pkg.simple_subscriber:main"
         ],
     },
 )

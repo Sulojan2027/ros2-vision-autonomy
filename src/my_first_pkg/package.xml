@@ -3,7 +3,7 @@
 <package format="3">
   <name>my_first_pkg</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>First PubSub Package</description>
   <maintainer email="sulojanrajkumar@gmail.com">sulojan</maintainer>
   <license>Apache-2.0</license>
 
