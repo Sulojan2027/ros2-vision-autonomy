@@ -1,0 +1,9 @@
+simple_publisher:
+  ros__parameters:
+    message_prefix: "Hey Mate!!"
+    publish_rate: 5.0
+
+simple_publisher_2:
+  ros__parameters:
+    message_prefix: "Hey Man!!"
+    publish_rate: 0.0
