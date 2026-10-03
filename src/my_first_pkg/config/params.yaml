@@ -6,4 +6,4 @@ simple_publisher:
 simple_publisher_2:
   ros__parameters:
     message_prefix: "Hey Man!!"
-    publish_rate: 0.0
+    publish_rate: 5.0

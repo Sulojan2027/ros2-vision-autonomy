@@ -28,7 +28,8 @@ setup(
     entry_points={
         'console_scripts': [
             "my_pub_node = my_first_pkg.simple_publisher:main",
-            "my_sub_node = my_first_pkg.simple_subscriber:main"
+            "my_sub_node = my_first_pkg.simple_subscriber:main",
+            "fake_detector = my_first_pkg.fake_detector:main"
         ],
     },
 )
