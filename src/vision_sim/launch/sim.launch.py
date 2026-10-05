@@ -36,7 +36,6 @@ def generate_launch_description():
             'use_sim_true': True
         }
             ],
-        use_sim_time=True
     )
 
     return LaunchDescription([
