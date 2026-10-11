@@ -81,6 +81,7 @@ class ColorDetector(Node):
         # Publish detections
         self.detection_publisher.publish(detections)
         img_msg = self.bridge.cv2_to_imgmsg(bgr_arr, encoding='bgr8')
+        img_msg.header = msg.header
         self.image_publisher.publish(img_msg)
 
         elapsed_ms = (time.perf_counter() - start) * 1000.0

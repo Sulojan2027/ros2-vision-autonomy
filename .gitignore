@@ -6,6 +6,10 @@ log/
 # Environments
 .venv
 
+# Models and weights
+models/
+*.pt
+
 # Other
 .vscode/
 __pycache__/

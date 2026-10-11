@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "color_detector = vision_perception.color_detector:main"
+            "color_detector = vision_perception.color_detector:main",
+            "yolo_detector = vision_perception.yolo_detector:main"
         ],
     },
 )
