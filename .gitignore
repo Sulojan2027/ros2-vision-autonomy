@@ -3,6 +3,9 @@ build/
 install/
 log/
 
+# Environments
+.venv
+
 # Other
 .vscode/
 __pycache__/

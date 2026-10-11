@@ -1,0 +1,9 @@
+# Deep learning detector
+ultralytics
+
+# Pins that protect ROS's apt-installed cv_bridge (built against NumPy 1.x)
+numpy<2
+opencv-python<4.12
+
+# torch/torchvision: install separately from pytorch.org's CUDA index
+# cv_bridge, rclpy: provided by ROS via apt
